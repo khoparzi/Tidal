@@ -118,6 +118,8 @@ bhairav :: Fractional a => [a]
 bhairav = [0,1,4,5,7,8,11]
 ahirbhairav :: Fractional a => [a]
 ahirbhairav = [0,1,4,5,7,9,10]
+bhairavi :: Fractional a => [a]
+bhairavi = [0,1,3,4,7,8,10]
 
 --
 superLocrian :: Fractional a => [a]
@@ -244,6 +246,7 @@ scaleTable = [("minPent", minPent),
               ("marva", marva),
               ("bhairav", bhairav),
               ("ahirbhairav", ahirbhairav),
+              ("bhairavi", bhairavi),
               ("superLocrian", superLocrian),
               ("romanianMinor", romanianMinor),
               ("hungarianMinor", hungarianMinor),
